@@ -527,5 +527,10 @@ app.post("/api/clcul", (req, res) => {
    }
 
 });
+
+// business logic 
+console.log("log bisness logic test");
+
+
 // make app importable from another files
 module.exports = app;
